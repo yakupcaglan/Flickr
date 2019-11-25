@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8EDDCB839A7449AE236CD4AF /* Pods_Flicker_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE36C54CCA0321E53F74E32 /* Pods_Flicker_Demo.framework */; };
 		C13B7398238983D800138EB1 /* DetailViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13B7397238983D800138EB1 /* DetailViewControllerFactory.swift */; };
+		C15F68F1238C1F95007D1343 /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F68F0238C1F95007D1343 /* Contracts.swift */; };
 		C1F0852F238561BD0018BA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0852E238561BD0018BA8F /* AppDelegate.swift */; };
 		C1F08535238561C00018BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F08534238561C00018BA8F /* Assets.xcassets */; };
 		C1F0853B238561C00018BA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F08539238561C00018BA8F /* LaunchScreen.storyboard */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		072E7B78E4087B902D0E01DE /* Pods-Flicker_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicker_Demo.release.xcconfig"; path = "Target Support Files/Pods-Flicker_Demo/Pods-Flicker_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		C13B7397238983D800138EB1 /* DetailViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerFactory.swift; sourceTree = "<group>"; };
+		C15F68F0238C1F95007D1343 /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
 		C1F0852B238561BD0018BA8F /* Flicker_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flicker_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F0852E238561BD0018BA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F08534238561C00018BA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				C1F0856B238843B20018BA8F /* HomeViewControllerFactory.swift */,
 				C1F08542238562A60018BA8F /* HomeViewControlller.swift */,
 				C1F08544238565FD0018BA8F /* HomeViewModel.swift */,
+				C15F68F0238C1F95007D1343 /* Contracts.swift */,
 				C1F085462385670A0018BA8F /* HomeView.swift */,
 				C1F0854F238575AE0018BA8F /* HomeCell.swift */,
 			);
@@ -314,6 +317,7 @@
 				C1F0855E23858ADF0018BA8F /* DetailViewModel.swift in Sources */,
 				C1F08565238707700018BA8F /* RecentPhotosResponse.swift in Sources */,
 				C1F0855C238588BC0018BA8F /* DetailView.swift in Sources */,
+				C15F68F1238C1F95007D1343 /* Contracts.swift in Sources */,
 				C1F0854B23856CB10018BA8F /* LayoutableView.swift in Sources */,
 				C1F08543238562A60018BA8F /* HomeViewControlller.swift in Sources */,
 				C1F08550238575AE0018BA8F /* HomeCell.swift in Sources */,

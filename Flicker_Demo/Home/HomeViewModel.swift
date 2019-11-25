@@ -8,24 +8,6 @@
 
 import UIKit
 
-protocol HomeViewModelProtocol: class {
-    var delegate: HomeViewModelDelegate? { get }
-    
-    var numberOfPhotos: Int { get }
-    
-    var isRefreshing: Bool { get }
-    
-    func loadPhotos()
-    
-    func item(at index: Int) -> Photo?
-}
-
-protocol HomeViewModelDelegate: class {
-    func photosDidChange(from viewModel: HomeViewModel)
-    
-    func refreshStateDidChange(from viewModel: HomeViewModel)
-}
-
 final class HomeViewModel: HomeViewModelProtocol {
     
     weak var delegate: HomeViewModelDelegate?
