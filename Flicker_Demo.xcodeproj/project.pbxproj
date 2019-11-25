@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EDDCB839A7449AE236CD4AF /* Pods_Flicker_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE36C54CCA0321E53F74E32 /* Pods_Flicker_Demo.framework */; };
+		C13B7398238983D800138EB1 /* DetailViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13B7397238983D800138EB1 /* DetailViewControllerFactory.swift */; };
 		C1F0852F238561BD0018BA8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0852E238561BD0018BA8F /* AppDelegate.swift */; };
-		C1F08531238561BD0018BA8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08530238561BD0018BA8F /* SceneDelegate.swift */; };
-		C1F08533238561BD0018BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08532238561BD0018BA8F /* ContentView.swift */; };
 		C1F08535238561C00018BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F08534238561C00018BA8F /* Assets.xcassets */; };
-		C1F08538238561C00018BA8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F08537238561C00018BA8F /* Preview Assets.xcassets */; };
 		C1F0853B238561C00018BA8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F08539238561C00018BA8F /* LaunchScreen.storyboard */; };
+		C1F08543238562A60018BA8F /* HomeViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08542238562A60018BA8F /* HomeViewControlller.swift */; };
+		C1F08545238565FD0018BA8F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08544238565FD0018BA8F /* HomeViewModel.swift */; };
+		C1F085472385670A0018BA8F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F085462385670A0018BA8F /* HomeView.swift */; };
+		C1F0854923856CA70018BA8F /* LayoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0854823856CA70018BA8F /* LayoutingView.swift */; };
+		C1F0854B23856CB10018BA8F /* LayoutableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0854A23856CB10018BA8F /* LayoutableView.swift */; };
+		C1F0854E238573C10018BA8F /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0854D238573C10018BA8F /* Extensions+UIView.swift */; };
+		C1F08550238575AE0018BA8F /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0854F238575AE0018BA8F /* HomeCell.swift */; };
+		C1F0855223857A770018BA8F /* CollectiontinViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0855123857A770018BA8F /* CollectiontinViewCell.swift */; };
+		C1F0855523857C460018BA8F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0855423857C460018BA8F /* NetworkService.swift */; };
+		C1F0855A238588B50018BA8F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08559238588B50018BA8F /* DetailViewController.swift */; };
+		C1F0855C238588BC0018BA8F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0855B238588BC0018BA8F /* DetailView.swift */; };
+		C1F0855E23858ADF0018BA8F /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0855D23858ADF0018BA8F /* DetailViewModel.swift */; };
+		C1F085602386F2840018BA8F /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0855F2386F2840018BA8F /* Photo.swift */; };
+		C1F085632386F9F80018BA8F /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F085622386F9F80018BA8F /* FlickrAPI.swift */; };
+		C1F08565238707700018BA8F /* RecentPhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08564238707700018BA8F /* RecentPhotosResponse.swift */; };
+		C1F0856823880BCE0018BA8F /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0856723880BCE0018BA8F /* Reusable.swift */; };
+		C1F0856A23880D7B0018BA8F /* Extension+CollectionViewRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0856923880D7B0018BA8F /* Extension+CollectionViewRegister.swift */; };
+		C1F0856C238843B20018BA8F /* HomeViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F0856B238843B20018BA8F /* HomeViewControllerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		072E7B78E4087B902D0E01DE /* Pods-Flicker_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicker_Demo.release.xcconfig"; path = "Target Support Files/Pods-Flicker_Demo/Pods-Flicker_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		C13B7397238983D800138EB1 /* DetailViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerFactory.swift; sourceTree = "<group>"; };
 		C1F0852B238561BD0018BA8F /* Flicker_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flicker_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F0852E238561BD0018BA8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F08530238561BD0018BA8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1F08532238561BD0018BA8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1F08534238561C00018BA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1F08537238561C00018BA8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1F0853A238561C00018BA8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F0853C238561C00018BA8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F08542238562A60018BA8F /* HomeViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControlller.swift; sourceTree = "<group>"; };
+		C1F08544238565FD0018BA8F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C1F085462385670A0018BA8F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C1F0854823856CA70018BA8F /* LayoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutingView.swift; sourceTree = "<group>"; };
+		C1F0854A23856CB10018BA8F /* LayoutableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutableView.swift; sourceTree = "<group>"; };
+		C1F0854D238573C10018BA8F /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		C1F0854F238575AE0018BA8F /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		C1F0855123857A770018BA8F /* CollectiontinViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiontinViewCell.swift; sourceTree = "<group>"; };
+		C1F0855423857C460018BA8F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C1F08559238588B50018BA8F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C1F0855B238588BC0018BA8F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C1F0855D23858ADF0018BA8F /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		C1F0855F2386F2840018BA8F /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		C1F085622386F9F80018BA8F /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		C1F08564238707700018BA8F /* RecentPhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentPhotosResponse.swift; sourceTree = "<group>"; };
+		C1F0856723880BCE0018BA8F /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		C1F0856923880D7B0018BA8F /* Extension+CollectionViewRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CollectionViewRegister.swift"; sourceTree = "<group>"; };
+		C1F0856B238843B20018BA8F /* HomeViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerFactory.swift; sourceTree = "<group>"; };
+		CDE36C54CCA0321E53F74E32 /* Pods_Flicker_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flicker_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE9107BB3345B338A7A3C8E /* Pods-Flicker_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flicker_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Flicker_Demo/Pods-Flicker_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDDCB839A7449AE236CD4AF /* Pods_Flicker_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02E740353E34AB42896DA072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDE9107BB3345B338A7A3C8E /* Pods-Flicker_Demo.debug.xcconfig */,
+				072E7B78E4087B902D0E01DE /* Pods-Flicker_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C1F08522238561BD0018BA8F = {
 			isa = PBXGroup;
 			children = (
 				C1F0852D238561BD0018BA8F /* Flicker_Demo */,
 				C1F0852C238561BD0018BA8F /* Products */,
+				02E740353E34AB42896DA072 /* Pods */,
+				F098B1CBB04F85E01A5A0BE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,23 +104,95 @@
 		C1F0852D238561BD0018BA8F /* Flicker_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C1F0852E238561BD0018BA8F /* AppDelegate.swift */,
-				C1F08530238561BD0018BA8F /* SceneDelegate.swift */,
-				C1F08532238561BD0018BA8F /* ContentView.swift */,
-				C1F08534238561C00018BA8F /* Assets.xcassets */,
+				C1F0855323857BED0018BA8F /* AppDelegate */,
+				C1F0855623857C490018BA8F /* Network */,
+				C1F08557238588820018BA8F /* Home */,
+				C1F08558238588910018BA8F /* Detail */,
+				C1F085612386F4AB0018BA8F /* Model */,
+				C1F0854C238572B40018BA8F /* Utils */,
 				C1F08539238561C00018BA8F /* LaunchScreen.storyboard */,
 				C1F0853C238561C00018BA8F /* Info.plist */,
-				C1F08536238561C00018BA8F /* Preview Content */,
+				C1F08534238561C00018BA8F /* Assets.xcassets */,
 			);
 			path = Flicker_Demo;
 			sourceTree = "<group>";
 		};
-		C1F08536238561C00018BA8F /* Preview Content */ = {
+		C1F0854C238572B40018BA8F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				C1F08537238561C00018BA8F /* Preview Assets.xcassets */,
+				C1F0856623880BAD0018BA8F /* Extensions */,
+				C1F0854823856CA70018BA8F /* LayoutingView.swift */,
+				C1F0854A23856CB10018BA8F /* LayoutableView.swift */,
+				C1F0855123857A770018BA8F /* CollectiontinViewCell.swift */,
 			);
-			path = "Preview Content";
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C1F0855323857BED0018BA8F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0852E238561BD0018BA8F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C1F0855623857C490018BA8F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0855423857C460018BA8F /* NetworkService.swift */,
+				C1F085622386F9F80018BA8F /* FlickrAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C1F08557238588820018BA8F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0856B238843B20018BA8F /* HomeViewControllerFactory.swift */,
+				C1F08542238562A60018BA8F /* HomeViewControlller.swift */,
+				C1F08544238565FD0018BA8F /* HomeViewModel.swift */,
+				C1F085462385670A0018BA8F /* HomeView.swift */,
+				C1F0854F238575AE0018BA8F /* HomeCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C1F08558238588910018BA8F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C13B7397238983D800138EB1 /* DetailViewControllerFactory.swift */,
+				C1F08559238588B50018BA8F /* DetailViewController.swift */,
+				C1F0855D23858ADF0018BA8F /* DetailViewModel.swift */,
+				C1F0855B238588BC0018BA8F /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C1F085612386F4AB0018BA8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0855F2386F2840018BA8F /* Photo.swift */,
+				C1F08564238707700018BA8F /* RecentPhotosResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1F0856623880BAD0018BA8F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0854D238573C10018BA8F /* Extensions+UIView.swift */,
+				C1F0856723880BCE0018BA8F /* Reusable.swift */,
+				C1F0856923880D7B0018BA8F /* Extension+CollectionViewRegister.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F098B1CBB04F85E01A5A0BE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE36C54CCA0321E53F74E32 /* Pods_Flicker_Demo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1F0853F238561C00018BA8F /* Build configuration list for PBXNativeTarget "Flicker_Demo" */;
 			buildPhases = (
+				39BC65BAA57BE52EC224A261 /* [CP] Check Pods Manifest.lock */,
 				C1F08527238561BD0018BA8F /* Sources */,
 				C1F08528238561BD0018BA8F /* Frameworks */,
 				C1F08529238561BD0018BA8F /* Resources */,
+				885F2224E1FC869991D7A43A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,21 +256,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1F0853B238561C00018BA8F /* LaunchScreen.storyboard in Resources */,
-				C1F08538238561C00018BA8F /* Preview Assets.xcassets in Resources */,
 				C1F08535238561C00018BA8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39BC65BAA57BE52EC224A261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flicker_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885F2224E1FC869991D7A43A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flicker_Demo/Pods-Flicker_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flicker_Demo/Pods-Flicker_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flicker_Demo/Pods-Flicker_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1F08527238561BD0018BA8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F0856823880BCE0018BA8F /* Reusable.swift in Sources */,
+				C1F0855A238588B50018BA8F /* DetailViewController.swift in Sources */,
+				C1F0855E23858ADF0018BA8F /* DetailViewModel.swift in Sources */,
+				C1F08565238707700018BA8F /* RecentPhotosResponse.swift in Sources */,
+				C1F0855C238588BC0018BA8F /* DetailView.swift in Sources */,
+				C1F0854B23856CB10018BA8F /* LayoutableView.swift in Sources */,
+				C1F08543238562A60018BA8F /* HomeViewControlller.swift in Sources */,
+				C1F08550238575AE0018BA8F /* HomeCell.swift in Sources */,
+				C1F0854E238573C10018BA8F /* Extensions+UIView.swift in Sources */,
+				C1F0856A23880D7B0018BA8F /* Extension+CollectionViewRegister.swift in Sources */,
+				C13B7398238983D800138EB1 /* DetailViewControllerFactory.swift in Sources */,
+				C1F085472385670A0018BA8F /* HomeView.swift in Sources */,
+				C1F0854923856CA70018BA8F /* LayoutingView.swift in Sources */,
+				C1F085632386F9F80018BA8F /* FlickrAPI.swift in Sources */,
+				C1F0855223857A770018BA8F /* CollectiontinViewCell.swift in Sources */,
+				C1F0855523857C460018BA8F /* NetworkService.swift in Sources */,
+				C1F0856C238843B20018BA8F /* HomeViewControllerFactory.swift in Sources */,
+				C1F08545238565FD0018BA8F /* HomeViewModel.swift in Sources */,
 				C1F0852F238561BD0018BA8F /* AppDelegate.swift in Sources */,
-				C1F08531238561BD0018BA8F /* SceneDelegate.swift in Sources */,
-				C1F08533238561BD0018BA8F /* ContentView.swift in Sources */,
+				C1F085602386F2840018BA8F /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,12 +462,14 @@
 		};
 		C1F08540238561C00018BA8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE9107BB3345B338A7A3C8E /* Pods-Flicker_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Flicker_Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 34BZ8GKDYX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Flicker_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,12 +483,14 @@
 		};
 		C1F08541238561C00018BA8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072E7B78E4087B902D0E01DE /* Pods-Flicker_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Flicker_Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 34BZ8GKDYX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Flicker_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
